@@ -111,6 +111,12 @@ select {
     color: #004c92;
     background: #ffff;
 }
+.boxs-section{
+  display: flex;
+  position: relative;
+ 
+ 
+}
 .box1{
   background: #DCEBF8;
  
@@ -130,18 +136,15 @@ color: #1A3555;
 padding-bottom: 50px;
 
 }
-.box1 input{
+.input{
   display: block;
-  width: 340px;
   width: 340.88px;
 height: 38.09px;
 left: 130px;
 top: 234.98px;
-
 background: #FFFFFF;
 border-radius: 20px;
 text-align: center;
-/* margin-top: 20px; */
 border: none;
 }
 .box1 label{
@@ -165,6 +168,9 @@ opacity: 0.6;
   display: flex;
 
 }
+.box-section-input label{
+ padding-right: 4px;
+}
 .box-section-input{
   font-family: 'Gilroy';
 font-style: normal;
@@ -173,13 +179,70 @@ font-size: 10px;
 line-height: 144%;
 color: #1A3555;
 opacity: 0.6;
+padding: 31px 0 25px 21px;
 }
 .box-section-input span{
   color: #1482E8;
   padding-left: 3px;
 }
-.chekbox{
-  width: 10px;
-  height: 10px;
-  padding: 31px 10px 30px 151px;
+.box1 button{
+  padding: 9px 81px 10px 83px;
+  background: linear-gradient(93.89deg, #1482E8 5.35%, #28C6DC 94.46%);
+border-radius: 90px;font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 144%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+.box2{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  height: 752px;
+
+  position: relative;
+
+}
+.box2 h2{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+padding: 72px 616px 35px 37px;
+color: #1A3555;
+}
+.wag{
+  font-size: 16px;
+  font-weight: 800;
+  color: black;
+}
+.box2-wag1 li{
+padding-top: 10px;
+padding-left: 37px;
+padding-right: 130px;
+font-family: 'Gilroy';
+font-style: normal;
+
+font-size: 14px;
+line-height: 144%;
+}
+.box2-wag2 li{
+  padding-top: 10px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-size: 14px;
+line-height: 144%;
+}
+.position{
+position: relative;
+left: 402px;
+bottom: 60px;
+
 }
